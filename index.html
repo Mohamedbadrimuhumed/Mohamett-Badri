@@ -1,27 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mohamed Badri's Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Badri - Web Developer</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      background-color: #f1f1f1;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
       text-align: center;
-      padding: 40px;
     }
+
     h1 {
-      color: #2c3e50;
+      font-size: 3em;
+      margin-bottom: 10px;
     }
+
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      font-weight: 400;
+      color: #ecf0f1;
+    }
+
     p {
-      color: #555;
+      font-size: 1.2em;
+      line-height: 1.6;
+      max-width: 600px;
+      color: #dfe6e9;
     }
+
     .contact {
-      margin-top: 20px;
-      font-size: 18px;
-      color: #1e90ff;
+      margin-top: 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .contact div {
+      margin-bottom: 10px;
+      font-size: 1em;
+      color: #ecf0f1;
+    }
+
+    .contact div span {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
     }
   </style>
 </head>
@@ -29,13 +78,14 @@
 <body>
   <h1>Mohamed Badri</h1>
   <h2>Web Developer & Student</h2>
-  <p>Hello! I’m Mohamed Badri from Xafad Jacay, Kabridahar. I love coding, cybersecurity, and football.</p>
-  
+  <p>Hello! I’m Mohamed Badri from Xafad Jacay, Kabridahar. I love coding, cybersecurity, and football. This is my personal website — more features coming soon!</p>
+
   <div class="contact">
-    📞 Phone: +251 91 507 0676 <br>
-    💌 Email: mohamed@example.com <br>
-    📘 Facebook: facebook.com/mohamedbadri
+    <div>📞 <span>Phone:</span> +251 91 507 0676</div>
+    <div>💌 <span>Email:</span> mohamed@example.com</div>
+    <div>📘 <span>Facebook:</span> facebook.com/mohamedbadri</div>
   </div>
 </body>
 
-</html>
+  </html
+    
